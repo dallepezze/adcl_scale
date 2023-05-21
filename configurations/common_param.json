@@ -1,0 +1,70 @@
+{  
+    "num_tasks":10,
+    "task_order":[0,1,2,3,4,5,6,7,8,9],
+    "latent_dim":128,
+    "lr":0.0001,
+    "beta":1,
+    "channels":3,
+    "gray":false,
+    "img_size":256,
+    "apply_rotation":false,
+    "criterion_type":"mse",
+    "activation":"ReLU",
+    "dropout1":true,
+    "dropout2":false,
+    "dataset_name": "mvtec",
+    "transformation":"None",
+    "show_plot":true,
+    "apply_som":false,
+    "apply_gng":false,
+    "normalize_img":true,
+    "only_normal":false,
+    "resize":256,
+    "crp_size":256,
+    "data_path":"/data/mvtec",
+
+    "device_id":0,
+    "num_epochs":50,
+    "batch_size":32,
+
+    "anomaly_detection_task":false,
+    "anomaly_detection_task_with_metrics":false,
+    "produce_visual_debug":false,
+    "save_embedding":false,
+    
+    "dataset_path_train":"",
+    "dataset_path_test":"",
+    "type_folder_train":"",
+    "type_folder_test":"",
+
+    "use_memory":false,
+    "memory_dataset_path_train":"",
+    "memory_dataset_path_test":"",
+    "type_memory_train":"",
+    "type_memory_test":"",
+
+    "use_memory_reconstruct":false,
+    "memory_reconstruct_dataset_path_train":"",
+    "memory_reconstruct_dataset_path_test":"",
+    "type_memory_reconstruct_train":"",
+    "type_memory_reconstruct_test":"",
+
+    "use_model":false,
+    "save_model":true,
+    "memory_model_path":"",
+
+    "new_memory":true,
+    "sample_strategy":"Naive",
+
+    "test_only_seen_tasks":false,
+    "use_train_as_test":false,
+    "test_all_dataset_together":false,
+
+    "type_test":"model",
+    "early_stopping":false,
+    "lr_scheduler":false,
+    "n_critic_eval":1,
+    "patience":10
+    
+
+}

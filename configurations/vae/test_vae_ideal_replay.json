@@ -1,0 +1,27 @@
+{
+    "architecture":"vae",
+    "trainer":"vae",
+    "mem_size":48000,
+    "tags":[""],
+
+    "anomaly_detection_task":true,
+    "anomaly_detection_task_with_metrics":false,
+    "produce_visual_debug":false,
+    "save_embedding":false,
+
+    "new_memory":true,
+    "sample_strategy":"replay",  
+
+    "device_id":0,
+    "num_epochs":50,
+    "batch_size": 32,
+    "latent_dim":256,
+
+    "early_stopping":false,
+    "lr_scheduler":false,
+
+    "test_only_seen_tasks":false,
+    "use_train_as_test":false,
+    "test_all_dataset_together":false
+}
+

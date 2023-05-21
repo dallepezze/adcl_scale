@@ -1,0 +1,24 @@
+{
+    "architecture":"pix2pix",
+    "trainer":"pix2pix_scaling_model",
+    "mem_size":4800,
+    "anomaly_detection_task":true,
+    "anomaly_detection_task_with_metrics":true,
+    "produce_visual_debug":false,
+    "save_embedding":true,
+
+    "new_memory":true,
+    "sample_strategy":"replay",  
+      
+    "type_folder_train":"memorized",
+    "dataset_path_train":"/data/original_dataset",
+    "type_folder_test":"evaluate_data",
+    "dataset_path_test":"/data/original_dataset",
+
+    "device_id":0,
+    "num_epochs":0,
+    "batch_size":8,
+
+    "test_only_seen_tasks":false,
+    "use_train_as_test":false
+}
